@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #07575b;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+}
+
+.container div{
+    background-color: rgb(23, 147, 255);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    border: 2px solid #dcdcdd;
+    flex-grow: 1;
+    flex-basis: 200px;
+    flex-shrink: 1;
+}
+
+/* 
+
+--Div container 
+----container flex
+------display
+------flex-wrap
+------flex-direction
+------flex-direction
+------justify-content
+------align-tems
+------align-content
+--Align items 
+
+*/
